@@ -58,6 +58,17 @@
     transition: all .2s;
 }
 
+.product-list .actions button[disabled]{
+    opacity: 0.5;
+    cursor: default;
+}
+
 .product-list .actions button:hover{
     background: #b14527;
+}
+
+.product-list .actions button[disabled]:hover{
+    background: #da552f;
+    opacity: 0.5;
+    cursor: default;
 }
